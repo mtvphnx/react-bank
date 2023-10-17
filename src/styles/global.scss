@@ -1,0 +1,14 @@
+@use "sass:math";
+
+$desktop-figma: 1280;
+$mobile-breakpoint: 768;
+$mobile-figma: 360;
+
+
+html {
+  font-size: math.div(16, $desktop-figma) * 100vw;
+
+  @media (max-width: ($mobile-breakpoint + px)) {
+    font-size: math.div(16, $mobile-figma) * 100vw;
+  }
+}

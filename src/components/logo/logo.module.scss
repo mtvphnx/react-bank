@@ -1,1 +1,12 @@
 @import '@styles/function.scss';
+
+.logo {
+  width: rem(70px);
+  height: rem(70px);
+  display: block;
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+}

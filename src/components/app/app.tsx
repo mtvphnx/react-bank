@@ -1,9 +1,10 @@
-import {FC} from "react";
+import {FC} from 'react'
+import {MainPage} from '@pages'
 
 export const App: FC = () => {
   return (
     <>
-      <h1>Hello World</h1>
+      <MainPage/>
     </>
   )
 }

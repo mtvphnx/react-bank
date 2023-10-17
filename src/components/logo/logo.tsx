@@ -1,5 +1,11 @@
-import {FC} from "react";
+import {FC} from 'react'
+import logo from '@assets/logo.svg'
+import styles from './logo.module.scss'
 
 export const Logo: FC = () => {
-  return <div>logo</div>
+  return (
+    <a className={styles.logo} href="/">
+      <img src={logo} alt="Bank"/>
+    </a>
+  )
 }

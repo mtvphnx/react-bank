@@ -1,5 +1,6 @@
-import {FC} from "react";
+import {FC} from 'react'
+import {Logo} from '@components'
 
 export const MainPage: FC = () => {
-  return <div>main</div>
+  return <Logo/>
 }
