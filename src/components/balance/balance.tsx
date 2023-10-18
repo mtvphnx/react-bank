@@ -1,5 +1,3 @@
-import {FC} from 'react'
-
-export const Balance: FC = () => {
+export const Balance = () => {
   return <div>balance</div>
 }

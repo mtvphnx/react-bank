@@ -1,5 +1,3 @@
-import {FC} from 'react'
-
-export const Advert: FC = () => {
+export const Advert = () => {
   return <div>advert</div>
 }

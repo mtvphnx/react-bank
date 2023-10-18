@@ -1,5 +1,5 @@
-import {FC} from 'react'
+// import styles from '@styles/global.scss'
 
-export const ErrorPage: FC = () => {
+export const ErrorPage = () => {
   return <div>error</div>
 }

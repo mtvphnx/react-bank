@@ -1,5 +1,3 @@
-import {FC} from 'react'
-
-export const History: FC = () => {
+export const History = () => {
   return <div>history</div>
 }

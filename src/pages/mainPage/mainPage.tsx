@@ -1,6 +1,6 @@
-import {FC} from 'react'
 import {Logo} from '@components'
+// import styles from '@styles/global.scss'
 
-export const MainPage: FC = () => {
+export const MainPage = () => {
   return <Logo/>
 }

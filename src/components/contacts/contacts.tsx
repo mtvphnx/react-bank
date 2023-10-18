@@ -1,5 +1,3 @@
-import {FC} from 'react'
-
-export const Contacts: FC = () => {
+export const Contacts = () => {
   return <div>contacts</div>
 }

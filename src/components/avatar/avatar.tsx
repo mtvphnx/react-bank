@@ -1,5 +1,8 @@
-import {FC} from 'react'
+interface AvatarProps {
+  src: string,
+  alt: string
+}
 
-export const Avatar: FC = () => {
-  return <div>avatar</div>
+export const Avatar = ({src, alt} : AvatarProps) => {
+  return <img src={src} alt={alt}/>
 }

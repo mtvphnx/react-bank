@@ -1,7 +1,6 @@
-import {FC} from 'react'
 import {MainPage} from '@pages'
 
-export const App: FC = () => {
+export const App = () => {
   return (
     <>
       <MainPage/>

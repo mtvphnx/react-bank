@@ -1,5 +1,3 @@
-import {FC} from 'react'
-
-export const Card: FC = () => {
+export const Card = () => {
   return <div>card</div>
 }

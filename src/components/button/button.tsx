@@ -1,5 +1,3 @@
-import {FC} from 'react'
-
-export const Button: FC = () => {
+export const Button = () => {
   return <div>button</div>
 }

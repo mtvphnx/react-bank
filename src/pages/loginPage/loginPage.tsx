@@ -1,5 +1,5 @@
-import {FC} from 'react'
+// import styles from '@styles/global.scss'
 
-export const LoginPage: FC = () => {
+export const LoginPage = () => {
   return <div>login</div>
 }

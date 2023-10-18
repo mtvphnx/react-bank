@@ -1,5 +1,3 @@
-import {FC} from 'react'
-
-export const Invite: FC = () => {
+export const Invite = () => {
   return <div>invite</div>
 }
